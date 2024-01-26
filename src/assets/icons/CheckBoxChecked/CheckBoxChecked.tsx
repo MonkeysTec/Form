@@ -1,0 +1,29 @@
+const CheckBoxChecked = () => {
+  return (
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_d_10298_7492)">
+    <rect x="5" y="1" width="18" height="18" rx="1" stroke="#25A7DB" stroke-width="2" shape-rendering="crispEdges"/>
+    </g>
+    <g clip-path="url(#clip0_10298_7492)">
+    <path d="M17.2 7.60001L12.8 12L10.8 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <defs>
+    <filter id="filter0_d_10298_7492" x="0" y="0" width="28" height="28" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+    <feOffset dy="4"/>
+    <feGaussianBlur stdDeviation="2"/>
+    <feComposite in2="hardAlpha" operator="out"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_10298_7492"/>
+    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_10298_7492" result="shape"/>
+    </filter>
+    <clipPath id="clip0_10298_7492">
+    <rect width="9.6" height="9.6" fill="white" transform="translate(9.19995 5.20001)"/>
+    </clipPath>
+    </defs>
+    </svg>
+  )
+}
+
+export default CheckBoxChecked;

@@ -1,0 +1,28 @@
+import { BadgeProps } from "./Badge.props";
+
+export const Badge = ({ color }: BadgeProps) => {
+
+    return (
+        <svg width="26" height="31" viewBox="0 0 26 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_4571_6319)">
+        <path d="M5 3L5 15.0925C5 15.6692 5.24896 16.2178 5.68299 16.5976L11.683 21.8476C12.437 22.5074 13.563 22.5074 14.317 21.8476L20.317 16.5976C20.751 16.2178 21 15.6692 21 15.0925L21 3C21 2.46957 20.7893 1.96086 20.4142 1.58579C20.0391 1.21071 19.5304 1 19 1L7 1C6.46957 1 5.96086 1.21071 5.58579 1.58579C5.21071 1.96086 5 2.46957 5 3Z" fill="#25A7DB"/>
+        <path d="M5 3L5 15.0925C5 15.6692 5.24896 16.2178 5.68299 16.5976L11.683 21.8476C12.437 22.5074 13.563 22.5074 14.317 21.8476L20.317 16.5976C20.751 16.2178 21 15.6692 21 15.0925L21 3C21 2.46957 20.7893 1.96086 20.4142 1.58579C20.0391 1.21071 19.5304 1 19 1L7 1C6.46957 1 5.96086 1.21071 5.58579 1.58579C5.21071 1.96086 5 2.46957 5 3Z" stroke="#25A7DB" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <path d="M13.3034 17.6445C13.3034 17.6445 18.1034 15.2445 18.1034 11.6445V7.44453L13.3034 5.64453L8.50342 7.44453V11.6445C8.50342 15.2445 13.3034 17.6445 13.3034 17.6445Z" stroke="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"/>
+        <defs>
+        <filter id="filter0_d_4571_6319" x="0.5" y="0.5" width="25" height="30.3423" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="2"/>
+        <feComposite in2="hardAlpha" operator="out"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4571_6319"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_4571_6319" result="shape"/>
+        </filter>
+        </defs>
+        </svg>
+    )
+}
+
+
